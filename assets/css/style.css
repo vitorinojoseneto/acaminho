@@ -10,7 +10,6 @@
     width: 99%;
     height: 100%;
     margin: 0 auto;
-    background: #ccc7;
 }
 body{
     background-color: #ffff;
@@ -89,7 +88,7 @@ form{
     text-align: center;
     font-weight: bolder;
     border-radius: 2px;
-    background:lightskyblue;
+    background:darkviolet;
 }
 .perfil{
     width: 40px;
@@ -101,7 +100,8 @@ form{
 .first_section{
     position: fixed;
     width: 100%;
-    height: 88vh;
+    height: 90vh;
+    background: #ccc5;
 }
 .content_first_section{
     display: flex;
@@ -111,7 +111,7 @@ aside{
     width: 20%;
     height: 88vh;
     padding: 10px;
-    background: #ddd7;
+    background: #ccc9;
 }
 .align_aside{
     margin-top: 10px;
@@ -136,8 +136,15 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 66%;
+    align-items: flex-start;
+    width: 72%;
+   
+}
+.descricaodoartista div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
 }
 .img_artist{
     width: 50px;
@@ -145,7 +152,14 @@ aside{
     object-fit: cover;
     border-radius: 50%;
 }
+.descricaodoartista div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+}
 .alcance{
+    color: red;
     font-weight: bolder;
 }
 .central{
@@ -166,6 +180,9 @@ aside{
     min-height: 56vh;
     margin-bottom: 50px;
 }
+.level{
+    color: darkviolet;
+}
 .card{
     width: 32%;
     height: 93%;
@@ -174,9 +191,17 @@ aside{
     width: 100%;
     height: 70%;
     margin-bottom: 10px;
-    background:url('../img/lendas/R.png');
+    background:url('../img/lendas/live.jpg');
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+
+}
+.img_card b{
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: red;
 }
 .info_card{
     display: flex;
