@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- link -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/hideshow.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/musical-notes.png" type="image/x-icon">
 <!-- Title -->
@@ -30,7 +31,7 @@
                     <button class="header_button">Buscar</button>
                 </form>
                 <div class="cadastra">
-                    <a href="3" class="link_navabr">Entrar</a>
+                    <li class="link_navabr" onclick="getin()">Entrar</li>
                     <a href="3" class="link_navabr_violet">Criar Conta</a>
                     <img src="assets/img/lendas/user.png" alt="" class="perfil">
                 </div>
@@ -590,6 +591,24 @@
             </div>
         </section>
 <!-----HIDE N SHOW  AREA-------------------------------------------------->
+<section id="login">
+    <div class="content_login">
+        <b class="fa fa-long-arrow-left where" onclick="getin()"></b>
+        <form action="" method="get" class="formulario">
+            <h1>Entrar</h1>
+            <input type="email" name="" id="" placeholder="Nome do usuário">
+            <input type="password" name="" id="" placeholder="Palavra-passe">
+            <div class="help">
+                <b class="fa fa-check-circle"><a href="#" class="help_son"> Lembra-me</a></b>
+                <a href="" class="help_son">Esqueceu palavra-passe?</a>
+            </div>
+            <button type="reset">Entrar</button>
+            <div class="registar">
+                <p>Tu não tens uma conta,<a href="#">Registrar</a></p>
+            </div>
+        </form>
+    </div>
+</section>
     </section>
     <!-- JS -->
     <script src="assets/js/home.js"></script>
