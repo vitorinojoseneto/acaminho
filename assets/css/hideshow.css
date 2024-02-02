@@ -13,7 +13,9 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background:rgba(00,00,00,.7);
+    background:url('../img/lendas/bg-login.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .where{
     position: fixed;
@@ -28,7 +30,7 @@
     align-items: center;
     width: 30%;
     height: 60%;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border: 2px solid rgba(225,225,225,.2);
     border-radius: 10px;
@@ -45,8 +47,9 @@
     border: 1px solid white;
     border-radius: 50px;
     background-color: transparent;
+    outline: none;
 }
-::placeholder{
+.formulario input::placeholder{
     color: white;
 }
 .help{
@@ -70,6 +73,7 @@
     width: 80%;
     padding: 12px;
     border-radius: 50px;
+    border: none;
     background-color: white;
 }
 .registar{
@@ -88,4 +92,30 @@
     color: aqua;
     font-size: 12pt;
     font-family: sans-serif;
+}
+/**/
+#cadasting{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+.content_cadasting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:url('../img/lendas/bg-cadastrar.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.here{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: white;
 }
